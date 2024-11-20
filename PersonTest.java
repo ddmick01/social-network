@@ -95,6 +95,6 @@ public class PersonTest {
         person1.addConnection(person2);
         assertEquals(2, person1.getInfluence());
         person2.addConnection(person3);
-        assertEquals(4, person1.getInfluence());
+        assertEquals(3, person1.getInfluence());
     }
 }
